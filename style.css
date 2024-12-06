@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    font-size: 62.5%;
+}
+.cabecalho{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content:center;
+}
+footer{
+    display: none;
+}
+.fotos-swiper{
+    display: none;
+}
+.iniciaisNome{
+    margin-left: 15rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 1rem;
+    color:white;
+    font-size: 2.4rem;
+    background-color: black;
+    border-radius: 100%;
+}
+span{
+  font-size: 5rem;
+  font-family: "La Belle Aurore", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.espaçonav{
+    margin: 0 40vw 0 38vw;
+    display: flex;
+    width:90%;
+}
+.bannerCabecalho{
+    display: flex;
+    justify-content: center;
+}
+.bannerfundo{
+    height: 16vw
+}
+.bannerfundo-telefone{
+    display: none;
+}
+main{
+    border-radius: 5px;
+    padding: 1.5rem;
+    top: 130px;
+    left: 10rem;
+    width: 25vw;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.281);
+}
+.dadosPrincipais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nomeetc{
+    padding: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+h1{    
+    font-size: 3.2rem;
+    padding-bottom: 0.8rem;
+}
+h2{
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding-bottom: 0.8rem;
+}
+p{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 0.5rem;
+}
+.fotoMelroo{
+width: 12rem;
+border-radius: 50%;
+}
+.infopequena{
+    margin-top: 2rem;
+    font-family: "Roboto", sans-serif;
+    padding: 0 15% 0 15%;
+    display: flex;
+    justify-content: space-around;
+}
+.infopequena-dados{
+    text-align: center;
+}
+.quantidade{
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+.titulo-quantidade{
+    margin-top: 0.3rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.botao{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.botaoOrçamento{
+    transition: 800ms;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1rem 6rem;
+    border-radius: 0.6rem;
+}
+.botaoOrçamento:hover{
+    transition: 300ms;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 1px 8px 2px rgba(0, 0, 0, 0.24);
+}
+.videoapresentacao{
+    height: 20rem;
+    border-radius:20px;
+}
+.videobox{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    margin: 2rem 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem; 
+}
+h4{
+    margin: 2rem 1.4rem 0 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 1.4rem; 
+}
+.contatos{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem; 
+}
+.contatosprincipais{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    color: black;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+.contatos-redessociais{
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+.titulosefotos{
+    margin-top: 2rem;
+    left: 33%;
+    width: 65%;
+    position:absolute;  
+}
+.navfiltro{
+    display:flex;
+    justify-content: center;
+}
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content:space-around;
+    margin-bottom: 10rem;
+}
+.fotos-portifolio{
+    margin: 2rem;
+    height: 35rem;
+    border-radius: 10px 0 10px 0;
+}
+
+.fotos-portifolio-retrato{
+    margin: 2em;
+    width:28em;
+    border-radius: 10px 0 10px 0;
+}
+.fotos-portifolio-carro{
+    margin: 2em;
+    height:28em;
+    border-radius: 10px 0 10px 0;
+}
+.fotos-portifolio-paisagens{
+    margin: 2em;
+    height:45em;
+    border-radius: 10px 0 10px 0;
+}
+.fotos-portifolio-desporto{
+    margin: 2em;
+    width:36em;
+    border-radius: 10px 0 10px 0;
+}
+.abas-nav{
+    transition: 700ms;
+    padding: 2rem 5.6rem;
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem; 
+}
+.abas-nav:hover{
+    transition: 400ms;
+    background-color: rgb(252, 252, 252);
+    padding: 2rem 5.6rem;
+    margin: 0 1rem;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 4px 8px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem; 
+}
+.abas-nav-destaq{
+    background-color: rgb(252, 252, 252);
+    padding: 2rem 5.6rem;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.24);
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem; 
+}
+@media only screen and (max-width: 1490px) {
+  
+    main{
+        border-radius: 5px;
+        padding: 1.5rem;
+        top: 130px;
+        left: 9vw;
+        width: 80vw;
+        background-color: rgb(255, 255, 255);
+        position:absolute;
+        box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.281);
+    }
+    .titulosefotos{
+        margin-top: 30rem;
+        left: auto;
+        width: auto;
+        position:static;  
+    }
+    .espaçonav{
+        margin: 0 40vw 0 30vw;
+    }
+    .videobox{
+        display: none;
+    }
+    .dadosextra{
+        display: flex;
+    }
+    .contatos{
+        display: none;
+    }
+    h3{
+        margin: .8rem 0;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 1.8rem; 
+    }
+    h4{
+        margin: .8rem 1.4rem 1.2rem 0;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        line-height: 1.5rem;
+        font-size: 1.4rem; 
+    }
+    .bannerDados{
+        background-color: rgba(255, 255, 255, 0.911);
+    }
+    .hr{
+        display: none;
+    }
+    
+
+}
+@media only screen and (max-width: 1118px) {
+    .titulosefotos{
+        margin-top: 32rem; }
+        .abas-nav{
+            padding: 1rem 5rem;
+           
+        }
+        .abas-nav-destaq{
+            padding: 1rem 5rem;
+            
+        }
+}
+@media only screen and (max-width: 979px) {
+    .bannerfundo{
+        height: 17vw
+    }
+    .espaçonav{
+        margin: 0 40vw 0 20vw;
+    }
+    h3{
+        margin: .8rem 0;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 1.4rem; 
+    }
+    h4{
+        margin: .8rem 1.4rem 1.2rem 0;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        line-height: 1.5rem;
+        font-size: 1.2
+        
+        rem; 
+    }
+       .titulosefotos{
+        margin-top: 38rem; }
+        .abas-nav{
+            padding: 1rem 3.5rem;
+           
+        }
+        .abas-nav-destaq{
+            padding: 1rem 3.5rem;
+            
+        }
+}
+@media only screen and (max-width: 769px) {
+    .bannerfundo{
+        display: block;
+    }
+    .bannerfundo-telefone{
+        width: 45vw;
+    }
+    .cabecalho{
+        display: none;
+    }
+    .bannerCabecalho{
+        display: block;
+        justify-content: center;
+    }
+    .navfiltro{
+        display: none;
+    }
+    .fotoMelroo{
+        width: 10vh;
+        border-radius: 50%;
+    }
+    h1{    
+        font-size: 2.5rem;
+        padding-bottom: 0.2rem;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .nomeetc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    p{
+        display: flex;
+        gap: 0.5rem;
+        align-items: self-end;
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding-bottom: 0.5rem;
+    }
+
+    main{
+        border-radius: 5px;
+        padding: 1.5rem;
+        top: 3em;
+        left: 2.5em;
+        width: 80vw;
+        background-color: rgb(255, 255, 255);
+        position:absolute;
+        box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.281);
+    }
+    .fotos{
+      display: none;
+    }
+    .titulosefotos{
+       position: absolute;
+       top: 190px;
+
+    }
+    .fotos-portifolio{
+        padding:0px;
+        margin: 0;
+    }
+    .fotos-swiper{
+        display: block;
+        padding: 5px 0 5px 8px;
+    }
+    footer{
+        width: 90%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+        background-color: rgb(247, 247, 247);
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 1.4rem; 
+        position: absolute;
+        top: 70em;
+        display: block;
+    }
+    .footer-text{
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 00;
+        font-size: 1.2rem; 
+    }
+    .contatos-redessociais{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 9rem 0 9rem;
+        text-align: center;
+        margin: 2rem;
+    }
+
+}

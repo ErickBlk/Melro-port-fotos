@@ -1,0 +1,36 @@
+
+
+.swiper {
+    width: 100vw;
+    height: 80vw;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 95%;
+    height: 92%;
+    object-fit: cover;
+  }
+  .swiper-button-next{
+    display: none;}
+
+    .swiper .swiper-button-next {
+        color: #ffffff !important; /* Força a cor */
+        display: block; /* Certifique-se de que o botão está visível */
+      }
+      .swiper .swiper-button-prev {
+        color: #ffffff !important; /* Força a cor */
+        display: block; /* Certifique-se de que o botão está visível */
+      }
+      .swiper-pagination-bullet {
+        background-color: #afafaf !important;
+      }
